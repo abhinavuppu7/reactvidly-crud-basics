@@ -2,13 +2,13 @@ import React, { Component } from "react";
 import Joi from "joi-browser";
 import { getMovie, saveMovie } from "../services/fakeMovieService";
 import { getGenres } from "../services/fakeGenreService";
-import Login from "./common/Login";
+import Form from "./common/Form";
 
-class Movieform extends Login {
+class Movieform extends Form {
 	state = {
 		data: {
 			title: "",
-			genre: "",
+			genreId: "",
 			numberInStock: "",
 			dailyRentalRate: "",
 		},
@@ -22,13 +22,14 @@ class Movieform extends Login {
 	schema = {
 		_id: Joi.string(),
 		title: Joi.string().required().label("Title"),
-		genre: Joi.string().required().label("Genre"),
+		genreId: Joi.string().required().label("Genre"),
 		numberInStock: Joi.number().min(0).max(100).required().label("Stock"),
 		dailyRentalRate: Joi.number().required().min(0).max(10).label("Rate"),
 	};
 	componentDidMount() {
 		const genres = getGenres();
 		this.setState({ genres });
+		// console.log(genres);
 		const movieId = this.props.match.params.id;
 		if (movieId === "new") return;
 		const movie = getMovie(movieId);
@@ -39,7 +40,7 @@ class Movieform extends Login {
 		return {
 			_id: movie._id,
 			title: movie.title,
-			genre: movie.genre.name,
+			genreId: movie.genre._id,
 			numberInStock: movie.numberInStock,
 			dailyRentalRate: movie.dailyRentalRate,
 		};
@@ -51,8 +52,8 @@ class Movieform extends Login {
 				<h1>Movie Form</h1>
 				<form onSubmit={this.handleSubmit}>
 					{this.renderInput("title", "Title")}
-					{this.renderInput("genre", "Genre")}
-					{this.renderInput("numberInStock", "Number in Stock")}
+					{this.renderSelect("genreId", "Genre", this.state.genres)}
+					{this.renderInput("numberInStock", "Number in Stock", "number")}
 					{this.renderInput("dailyRentalRate", "Rate")}
 					{this.renderButton("Save")}
 				</form>
