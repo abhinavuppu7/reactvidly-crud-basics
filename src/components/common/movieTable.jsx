@@ -9,9 +9,6 @@ class MovieTable extends Component {
 		{
 			path: "title",
 			label: "Title",
-			content: (movie) => (
-				<Link to={`/movies/${movie._id}`}> {movie.title}</Link>
-			),
 		},
 		{ path: "genre.name", label: "Genre" },
 		{ path: "numberInStock", label: "Stock" },
@@ -20,6 +17,21 @@ class MovieTable extends Component {
 			key: "like",
 			content: (movie) => (
 				<Like onClick={() => this.props.onLike(movie)} liked={movie.liked} />
+			),
+		},
+		{
+			key: "update",
+			content: (movie) => (
+				<Link to={`/movies/${movie._id}`}>
+					<button
+						className="btn btn-warning btn-sm"
+						onClick={() => (
+							<Link to={`/movies/${movie._id}`}> {movie.title}</Link>
+						)}
+					>
+						Delete
+					</button>
+				</Link>
 			),
 		},
 		{
