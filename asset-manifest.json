@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/abhinavuppu7/reactvidly-crud-basics/static/css/main.d89f42b6.chunk.css",
-    "main.js": "/abhinavuppu7/reactvidly-crud-basics/static/js/main.e31a64f5.chunk.js",
-    "main.js.map": "/abhinavuppu7/reactvidly-crud-basics/static/js/main.e31a64f5.chunk.js.map",
+    "main.js": "/abhinavuppu7/reactvidly-crud-basics/static/js/main.bd38c1d0.chunk.js",
+    "main.js.map": "/abhinavuppu7/reactvidly-crud-basics/static/js/main.bd38c1d0.chunk.js.map",
     "runtime-main.js": "/abhinavuppu7/reactvidly-crud-basics/static/js/runtime-main.853895f0.js",
     "runtime-main.js.map": "/abhinavuppu7/reactvidly-crud-basics/static/js/runtime-main.853895f0.js.map",
     "static/css/2.1f2d8baf.chunk.css": "/abhinavuppu7/reactvidly-crud-basics/static/css/2.1f2d8baf.chunk.css",
-    "static/js/2.29f96d9f.chunk.js": "/abhinavuppu7/reactvidly-crud-basics/static/js/2.29f96d9f.chunk.js",
-    "static/js/2.29f96d9f.chunk.js.map": "/abhinavuppu7/reactvidly-crud-basics/static/js/2.29f96d9f.chunk.js.map",
+    "static/js/2.d059c1c3.chunk.js": "/abhinavuppu7/reactvidly-crud-basics/static/js/2.d059c1c3.chunk.js",
+    "static/js/2.d059c1c3.chunk.js.map": "/abhinavuppu7/reactvidly-crud-basics/static/js/2.d059c1c3.chunk.js.map",
     "static/js/3.c17c75e2.chunk.js": "/abhinavuppu7/reactvidly-crud-basics/static/js/3.c17c75e2.chunk.js",
     "static/js/3.c17c75e2.chunk.js.map": "/abhinavuppu7/reactvidly-crud-basics/static/js/3.c17c75e2.chunk.js.map",
     "index.html": "/abhinavuppu7/reactvidly-crud-basics/index.html",
     "static/css/2.1f2d8baf.chunk.css.map": "/abhinavuppu7/reactvidly-crud-basics/static/css/2.1f2d8baf.chunk.css.map",
     "static/css/main.d89f42b6.chunk.css.map": "/abhinavuppu7/reactvidly-crud-basics/static/css/main.d89f42b6.chunk.css.map",
-    "static/js/2.29f96d9f.chunk.js.LICENSE.txt": "/abhinavuppu7/reactvidly-crud-basics/static/js/2.29f96d9f.chunk.js.LICENSE.txt",
+    "static/js/2.d059c1c3.chunk.js.LICENSE.txt": "/abhinavuppu7/reactvidly-crud-basics/static/js/2.d059c1c3.chunk.js.LICENSE.txt",
     "static/media/font-awesome.css": "/abhinavuppu7/reactvidly-crud-basics/static/media/fontawesome-webfont.f691f37e.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.853895f0.js",
     "static/css/2.1f2d8baf.chunk.css",
-    "static/js/2.29f96d9f.chunk.js",
+    "static/js/2.d059c1c3.chunk.js",
     "static/css/main.d89f42b6.chunk.css",
-    "static/js/main.e31a64f5.chunk.js"
+    "static/js/main.bd38c1d0.chunk.js"
   ]
 }
