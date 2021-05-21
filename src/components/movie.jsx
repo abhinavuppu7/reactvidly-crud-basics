@@ -61,12 +61,11 @@ class Movies extends Component {
 			filtered = Allmovies.filter((m) =>
 				m.title.toLowerCase().startsWith(SearchQuery.toLowerCase())
 			);
-		else if (currentgenre && currentgenre._id)
-			filtered = Allmovies.filter((m) => m.genre._id === currentgenre._id);
-		// const filtered =
-		// 	currentgenre === "All"
-		// 		? Allmovies
-		// 		: Allmovies.filter((m) => m.genre.name === currentgenre);
+		else
+			filtered =
+				currentgenre === "All"
+					? Allmovies
+					: Allmovies.filter((m) => m.genre.name === currentgenre);
 		const sorted = _.orderBy(filtered, [SortColumn.path], [SortColumn.order]);
 
 		const movies = paginate(
