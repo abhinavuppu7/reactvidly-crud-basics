@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Login from "./common/Login";
+import Form from "./common/Form";
 import Joi from "joi-browser";
-class Register extends Login {
+class Register extends Form {
 	state = {
 		data: {
 			username: "",
