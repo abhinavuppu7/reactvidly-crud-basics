@@ -29,7 +29,7 @@ class MovieTable extends Component {
 							<Link to={`/movies/${movie._id}`}> {movie.title}</Link>
 						)}
 					>
-						Delete
+						Update
 					</button>
 				</Link>
 			),
