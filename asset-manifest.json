@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/reactvidly-crud-basics/static/css/main.d89f42b6.chunk.css",
-    "main.js": "/reactvidly-crud-basics/static/js/main.bd38c1d0.chunk.js",
-    "main.js.map": "/reactvidly-crud-basics/static/js/main.bd38c1d0.chunk.js.map",
+    "main.js": "/reactvidly-crud-basics/static/js/main.4fe253a4.chunk.js",
+    "main.js.map": "/reactvidly-crud-basics/static/js/main.4fe253a4.chunk.js.map",
     "runtime-main.js": "/reactvidly-crud-basics/static/js/runtime-main.5ff06dc3.js",
     "runtime-main.js.map": "/reactvidly-crud-basics/static/js/runtime-main.5ff06dc3.js.map",
     "static/css/2.fe7e2d3c.chunk.css": "/reactvidly-crud-basics/static/css/2.fe7e2d3c.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.fe7e2d3c.chunk.css",
     "static/js/2.d059c1c3.chunk.js",
     "static/css/main.d89f42b6.chunk.css",
-    "static/js/main.bd38c1d0.chunk.js"
+    "static/js/main.4fe253a4.chunk.js"
   ]
 }
